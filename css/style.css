@@ -1,0 +1,31 @@
+body {
+    background-image: url("../images/THOT-pagina-fondo.png");
+    background-origin: content-box;
+    background-size: auto;
+    height: 100%;
+    margin: auto;
+}
+
+.main_body {
+    background-color: white;
+    position: center;
+    width: 539px;
+    font-family: Arial,sans-serif;
+    font-size: 14pt;
+    line-height: 21pt;
+    text-align: justify;
+    vertical-align: middle;
+    padding-left: 49px;
+    padding-right: 49px;
+    margin: auto;
+}
+
+.header {
+    width: 637px;
+    height: 245px;
+    margin: auto;
+}
+
+.footer {
+    margin: auto;
+}
