@@ -1,31 +1,85 @@
-body {
-    background-image: url("../images/THOT-pagina-fondo.png");
-    background-origin: content-box;
-    background-size: auto;
+.upper_strip {
+    position: fixed;
+    top: 0pt;
+    left: 0pt;
+    width: 100%;
+    height: 25px;
+    background-color: lightblue;
+    z-index: 2;
+    visibility: visible;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    color: white;
+}
+
+.background {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    width: 100%;
     height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.3;
     margin: auto;
 }
 
+.center_frame{
+    width: 637px;
+    height: 100%;
+    top: 25px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.header {
+    height: 245px;
+    visibility: visible;
+    z-index: 1;
+}
+
+
 .main_body {
     background-color: white;
-    position: center;
     width: 539px;
     font-family: Arial,sans-serif;
     font-size: 14pt;
     line-height: 21pt;
     text-align: justify;
-    vertical-align: middle;
     padding-left: 49px;
     padding-right: 49px;
-    margin: auto;
+    visibility: visible;
 }
 
-.header {
-    width: 637px;
-    height: 245px;
-    margin: auto;
-}
 
 .footer {
-    margin: auto;
+    visibility: visible;
+}
+
+p.title {
+    font-size: 21pt;
+    line-height: 28pt;
+    text-transform: uppercase;
+    margin: 0pt;
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 245px;
+    left: 5%;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    z-index: -1;
+    font-family: Arial,sans-serif;
+    font-size: 14pt;
+    line-height: 28pt;
+    visibility: visible;
+    z-index: 1;
 }
